@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="Nifasath.TestComponents.Listeners"/>
+  </listeners>
+  <test thread-count="5" parallel="tests" name="Submit Order(failed)" verbose="0">
+    <classes>
+      <class name="Nifasath.Tests.StandAloneTest">
+        <methods>
+          <include name="launchApplication"/>
+          <include name="tearDown"/>
+          <include name="OrderHistoryTest"/>
+          <include name="StandAloneTest" invocation-numbers="0 1"/>
+        </methods>
+      </class> <!-- Nifasath.Tests.StandAloneTest -->
+    </classes>
+  </test> <!-- Submit Order(failed) -->
+</suite> <!-- Failed suite [Suite] -->

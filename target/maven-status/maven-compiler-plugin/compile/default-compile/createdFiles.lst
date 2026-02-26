@@ -1,0 +1,9 @@
+Nifasath\App.class
+Nifasath\pageObjectModel\OrderPage.class
+Nifasath\pageObjectModel\productCatalogue.class
+Nifasath\pageObjectModel\landingPage.class
+Nifasath\pageObjectModel\cartPage.class
+Nifasath\resources\ExtentReporterNG.class
+Nifasath\AbstractComponents\AbstractComponent.class
+Nifasath\pageObjectModel\orderConfirmation.class
+Nifasath\pageObjectModel\checkoutPage.class

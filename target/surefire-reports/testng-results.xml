@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-02-21T11:37:26 IST" name="Suite" finished-at="2026-02-21T11:37:53 IST" duration-ms="27386">
+    <groups>
+      <group name="ErrorHandling">
+        <method signature="ErrorValidationsTest.LoginErrorValidation()[pri:0, instance:Nifasath.Tests.ErrorValidationsTest@5f9edf14]" name="LoginErrorValidation" class="Nifasath.Tests.ErrorValidationsTest"/>
+      </group> <!-- ErrorHandling -->
+      <group name="Purchase">
+        <method signature="StandAloneTest.StandAloneTest(java.util.HashMap)[pri:0, instance:Nifasath.Tests.StandAloneTest@23f5b5dc]" name="StandAloneTest" class="Nifasath.Tests.StandAloneTest"/>
+      </group> <!-- Purchase -->
+    </groups>
+    <test started-at="2026-02-21T11:37:26 IST" name="Error Validation" finished-at="2026-02-21T11:37:45 IST" duration-ms="19293">
+      <class name="Nifasath.Tests.ErrorValidationsTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Nifasath.Tests.ErrorValidationsTest@5f9edf14]" started-at="2026-02-21T11:37:26 IST" name="launchApplication" finished-at="2026-02-21T11:37:31 IST" duration-ms="5629" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="LoginErrorValidation()[pri:0, instance:Nifasath.Tests.ErrorValidationsTest@5f9edf14]" started-at="2026-02-21T11:37:31 IST" name="LoginErrorValidation" finished-at="2026-02-21T11:37:33 IST" duration-ms="1512" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginErrorValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Nifasath.Tests.ErrorValidationsTest@5f9edf14]" started-at="2026-02-21T11:37:33 IST" name="tearDown" finished-at="2026-02-21T11:37:40 IST" duration-ms="6927" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Nifasath.Tests.ErrorValidationsTest@5f9edf14]" started-at="2026-02-21T11:37:40 IST" name="launchApplication" finished-at="2026-02-21T11:37:41 IST" duration-ms="1540" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="ProductErrorValidation()[pri:0, instance:Nifasath.Tests.ErrorValidationsTest@5f9edf14]" started-at="2026-02-21T11:37:41 IST" name="ProductErrorValidation" finished-at="2026-02-21T11:37:45 IST" duration-ms="3347" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductErrorValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Nifasath.Tests.ErrorValidationsTest@5f9edf14]" started-at="2026-02-21T11:37:45 IST" name="tearDown" finished-at="2026-02-21T11:37:45 IST" duration-ms="283" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Nifasath.Tests.ErrorValidationsTest -->
+    </test> <!-- Error Validation -->
+    <test started-at="2026-02-21T11:37:26 IST" name="Submit Order" finished-at="2026-02-21T11:37:53 IST" duration-ms="27386">
+      <class name="Nifasath.Tests.StandAloneTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Nifasath.Tests.StandAloneTest@23f5b5dc]" started-at="2026-02-21T11:37:26 IST" name="launchApplication" finished-at="2026-02-21T11:37:31 IST" duration-ms="5437" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="StandAloneTest(java.util.HashMap)[pri:0, instance:Nifasath.Tests.StandAloneTest@23f5b5dc]" started-at="2026-02-21T11:37:31 IST" name="StandAloneTest" data-provider="getData" finished-at="2026-02-21T11:37:36 IST" duration-ms="4764" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{email=nifasath004@gmail.com, productName=ZARA COAT 3, Password=Nifasath@123}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StandAloneTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Nifasath.Tests.StandAloneTest@23f5b5dc]" started-at="2026-02-21T11:37:36 IST" name="tearDown" finished-at="2026-02-21T11:37:40 IST" duration-ms="3736" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Nifasath.Tests.StandAloneTest@23f5b5dc]" started-at="2026-02-21T11:37:40 IST" name="launchApplication" finished-at="2026-02-21T11:37:42 IST" duration-ms="2543" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="StandAloneTest(java.util.HashMap)[pri:0, instance:Nifasath.Tests.StandAloneTest@23f5b5dc]" started-at="2026-02-21T11:37:42 IST" name="StandAloneTest" data-provider="getData" finished-at="2026-02-21T11:37:47 IST" duration-ms="5058" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{email=nifariya@gmail.com, productName=ADIDAS ORIGINAL, Password=NifaRiya@123}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StandAloneTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Nifasath.Tests.StandAloneTest@23f5b5dc]" started-at="2026-02-21T11:37:47 IST" name="tearDown" finished-at="2026-02-21T11:37:48 IST" duration-ms="241" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Nifasath.Tests.StandAloneTest@23f5b5dc]" started-at="2026-02-21T11:37:48 IST" name="launchApplication" finished-at="2026-02-21T11:37:51 IST" duration-ms="3573" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="OrderHistoryTest()[pri:0, instance:Nifasath.Tests.StandAloneTest@23f5b5dc]" started-at="2026-02-21T11:37:51 IST" name="OrderHistoryTest" finished-at="2026-02-21T11:37:53 IST" depends-on-methods="Nifasath.Tests.StandAloneTest.StandAloneTest" duration-ms="1527" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrderHistoryTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Nifasath.Tests.StandAloneTest@23f5b5dc]" started-at="2026-02-21T11:37:53 IST" name="tearDown" finished-at="2026-02-21T11:37:53 IST" duration-ms="230" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Nifasath.Tests.StandAloneTest -->
+    </test> <!-- Submit Order -->
+  </suite> <!-- Suite -->
+</testng-results>
