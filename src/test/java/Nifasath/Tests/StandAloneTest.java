@@ -26,7 +26,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class StandAloneTest extends BaseTests{
 
 	//this is the submitOrder test which we reffered 
-	
+	// newwwwwwwww changessssssssssss
 	String productName = "ZARA COAT 3";
 	
 	@Test(dataProvider="getData", groups={"Purchase"})
